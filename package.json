@@ -1,0 +1,26 @@
+{
+  "name": "Smart-Contract-for-Public-Bidding",
+  "version": "1.0.0",
+  "description": "*truffle init başlangı çdosyalarını yüklüyor ----------------------------------------------------- contract:Sözleşmelerin yapıldığı yer",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": { "lite-server": "^2.3.0"},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UtkuGlsvn/Smart-Contract-for-Public-Bidding.git"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UtkuGlsvn/Smart-Contract-for-Public-Bidding/issues"
+  },
+  "homepage": "https://github.com/UtkuGlsvn/Smart-Contract-for-Public-Bidding#readme"
+}
