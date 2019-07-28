@@ -11,7 +11,7 @@ contract ihale_t{
         uint64 toplamOdeme;
     }
     struct Sirket{
-        uint8 id;
+        uint8 id;//
         string sirketAdi;
         uint64 sermaye;
         uint8 altIhaleId;
