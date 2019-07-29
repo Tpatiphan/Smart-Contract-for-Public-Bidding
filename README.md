@@ -1,5 +1,7 @@
 # Smart-Contract-for-Public-Bidding
 
+
+  ## *Saoshi Babamız,Vitalik Abimiz,Ege Tekiner Hocamız,LKD Evimiz 
 *truffle init başlangı çdosyalarını yüklüyor
 -----------------------------------------------------
 contract:Sözleşmelerin yapıldığı yer
