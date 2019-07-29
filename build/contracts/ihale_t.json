@@ -6615,7 +6615,11 @@
   },
   "networks": {},
   "schemaVersion": "3.0.11",
+<<<<<<< HEAD
+  "updatedAt": "2019-07-29T11:03:32.662Z",
+=======
   "updatedAt": "2019-07-29T08:52:13.761Z",
+>>>>>>> bd29e2bb48af1a3eb8a233b25e37bd68d566bf9c
   "devdoc": {
     "methods": {}
   },
