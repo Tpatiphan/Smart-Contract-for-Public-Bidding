@@ -1,8 +1,5 @@
 # Smart-Contract-for-Public-Bidding
 
-
-## Satoshi Babamız,Vitalik Abimiz,Ege Tekiner Hocamız,LKD Evimiz ...
-
 -----------------------------------------------------
 
 
@@ -32,3 +29,6 @@ ganache açık olması lazım*
 ----------------------------------------
 
 truffle-config.js config dosyaları
+
+-------------------------------------------------------------
+## Satoshi Babamız,Vitalik Abimiz,Ege Tekiner Hocamız,LKD Evimiz ...
