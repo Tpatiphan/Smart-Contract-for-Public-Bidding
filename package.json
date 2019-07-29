@@ -6,7 +6,9 @@
   "directories": {
     "test": "test"
   },
-  "devDependencies": { "lite-server": "^2.3.0"},
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "lite-server"
@@ -15,7 +17,6 @@
     "type": "git",
     "url": "git+https://github.com/UtkuGlsvn/Smart-Contract-for-Public-Bidding.git"
   },
-  
   "keywords": [],
   "author": "",
   "license": "ISC",

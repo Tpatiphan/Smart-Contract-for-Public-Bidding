@@ -12,7 +12,15 @@
 <!-- Opsiyonel tema -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 <!-- En son derlenmiş ve minimize edilmiş JavaScript -->
+
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.34/dist/web3.js"></script>
+
+<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.34/dist/web3.min.js"></script>
+
+<script language="javascript" type="text/javascript" src="web3.min.js"></script>
+
 
   </head>
   <body>
@@ -24,13 +32,21 @@
           <br/>
         </div>
       </didv>
-      <div id="ihale" class="row">
+      <div id="para_gonder" class="row">
             <table style="width:100%">
+                <h3 style="margin-left: 0%">Gönderici:</h3>
                     <table style="width:100%">
                             <tr>
-                    <th><button type="button" class="btn btn-success">Canlı İhaleleri Göster</button></th>
-                    <th><button type="button" class="btn btn-success">İhaleleri Listele</button></th>
-                    <th><button type="button" class="btn btn-success">İhaleleri Katıl</button></th>
+                                <didv class="row">  Ad Soyad:<div><input id="gonderici_ad"></div>      </didv>
+
+                                  <didv class="row">Telefon No:<div><input id="gonderici_tel"></div>      </didv>
+
+                                    <didv class="row">Hesap Adresi(Public Key):<div><input id="gonderici_adres"></div>      </didv>
+
+                                      <didv class="row">Gönderilen Adres(Public Key):<div><input id="gonderilen_adres"></div> </didv>
+                                      <br/>
+                                      <div><input type="submit" onClick="deleteUser()"></div>      
+
                             </tr>
                           </table> 
       </div>
