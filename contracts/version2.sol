@@ -11,7 +11,7 @@ contract ihale_t{
         uint64 toplamOdeme;
     }
     struct Sirket{
-        uint8 id;//
+        uint8 id;
         string sirketAdi;
         uint64 sermaye;
         uint8 altIhaleId;
@@ -38,6 +38,7 @@ contract ihale_t{
     function createSirket(string memory sirketAdi,uint64 sermaye,uint8 altIhaleId,string memory telNo,string memory mail,string memory faxNo,string memory adres,address sirketPublicKey) public {
         ihaleyeGirecekSirketler.push(Sirket(sirketIndex,sirketAdi,sermaye,altIhaleId,telNo,mail,faxNo,adres,sirketPublicKey));
         sirketPubtoIndex[sirketPublicKey]=sirketIndex;
+        
         sirketIndex++;
     }
     function createIhale(string memory isTanimi,string memory sartname,uint256  tarih, address sirketPublicKey) public {
@@ -51,5 +52,21 @@ contract ihale_t{
         if(altIhaleler[teklifIndex].fiyatmin<teklif&&altIhaleler[teklifIndex].fiyat<teklif){
             altIhaleler[teklifIndex].sirketPublicKey=teklifSirketPublicKey;
         }
+    }
+    function getBalance(address pubkey) public view returns(uint256){
+          return pubkey.balance;
+    }
+    function deposit(uint256 amount) payable public {
+        require(msg.value == amount);
+        // nothing else to do!
+    }
+    function withdraw() public {
+        msg.sender.transfer(10);
+    }
+    function getmsgsender() public view returns(address)  {
+        return msg.sender;
+    }
+    function getContractAddress() public view returns(address){
+        return address(this);
     }
 }
